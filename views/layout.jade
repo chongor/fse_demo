@@ -1,0 +1,27 @@
+html(lang="en")
+	head
+		block head
+			block title
+				title SB-5 Emergency Social Network
+			block meta
+				meta(charset='utf-8')
+				meta(name='viewport' content='width=device-width, initial-scale=1.0')
+				meta(http-equiv='X-UA-Compatible', content="IE-edge")
+				meta(name='description', content='FSE Project for team SB-5')
+				meta(name='keywords', content='')
+
+			link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+			block stylesheet
+			block scripts
+			block globalscripts
+	body
+		include header
+
+		block content
+
+		include footer
+
+		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+		script(src="/javascripts/bootstrap.js")
+
+		block footscripts
